@@ -1,9 +1,10 @@
 # docker-dnsmasq
 
-dnsmasq in a docker container, configurable via a [simple web UI](https://github.com/jpillora/webproc)
+Updated for armv7
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/jpillora/dnsmasq.svg)][dockerhub]
-[![Image Size](https://images.microbadger.com/badges/image/jpillora/dnsmasq.svg)][dockerhub]
+***
+
+dnsmasq in a docker container, configurable via a [simple web UI](https://github.com/jpillora/webproc)
 
 ### Usage
 
@@ -39,7 +40,7 @@ dnsmasq in a docker container, configurable via a [simple web UI](https://github
    	-e "HTTP_USER=foo" \
    	-e "HTTP_PASS=bar" \
    	--restart always \
-   	jpillora/dnsmasq
+   	gigantuar/dnsmasq
    ```
 
 1. Visit `http://<docker-host>:5380`, authenticate with `foo/bar` and you should see
@@ -81,4 +82,4 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[dockerhub]: https://hub.docker.com/r/jpillora/dnsmasq/
+[dockerhub]: https://hub.docker.com/r/gigantuar/dnsmasq/
