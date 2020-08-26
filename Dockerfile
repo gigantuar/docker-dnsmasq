@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 LABEL maintainer="Gigantuar"
 # webproc release settings
 ENV WEBPROC_VERSION v0.4.0
